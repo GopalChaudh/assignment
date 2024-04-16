@@ -5,7 +5,7 @@ export default function Profile() {
     <div className='profie-container'>
    <h3 className='profile-top'>Account Settings</h3>
    <div className="profile">
-    <img src="/profile.png" alt="" />
+    <img src="/profile.png" onError="this.onerror=null;this.src='/assignment/profile.png'" alt="" />
     <div>
       <h3>Marry Doe</h3>
       <p>Marry@Gmail.Com</p>
