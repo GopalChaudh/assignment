@@ -1,8 +1,8 @@
 import React from 'react';
-import './Profile.css'; // Assuming a CSS file for styling
+import './Profile.css'; 
 
 export default function Profile() {
-  const defaultProfileImage = '/assignment/profile.png'; // Predefined default image
+  const defaultProfileImage = '/assignment/profile.png'; 
 
   return (
     <div className='profile-container'>
@@ -11,9 +11,9 @@ export default function Profile() {
         <img
           src="/profile.png"
           onError={(event) => {
-            event.currentTarget.src = defaultProfileImage; // Set default image on error
+            event.currentTarget.src = defaultProfileImage; 
           }}
-          alt="Profile Picture" // Add alt text for accessibility
+          alt="Profile Picture" 
         />
         <div>
           <h3>Marry Doe</h3>
